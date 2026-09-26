@@ -1,6 +1,8 @@
 
 <!DOCTYPE html><html lang="en">
 <head>
+    <link rel="manifest" href="./manifest.json">
+<meta name="theme-color" content="#0a8f3d">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Star Mobile Haldwani | Mobile Repair & Second Hand Mobiles</title><meta name="description" content="Star Mobile Haldwani - Professional mobile repairing, display replacement, battery replacement, software repair and second hand mobiles."><style>
 
@@ -560,7 +562,13 @@ target="_blank"
 rel="noopener"
 aria-label="Chat with Star Mobile on WhatsApp">
 
-💬
+💬<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./sw.js");
+  });
+}
+</script>
 
 </a></body>
 </html>
