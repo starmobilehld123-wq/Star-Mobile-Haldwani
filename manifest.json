@@ -1,1 +1,10 @@
 
+{
+  "name": "Star Mobile",
+  "short_name": "Star Mobile",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0a8f3d",
+  "description": "Star Mobile Haldwani - Mobile Repair & Services"
+}
